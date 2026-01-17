@@ -1,4 +1,4 @@
-SkillIntel - Holistic Academic Intelligence System
+# SkillIntel - Holistic Academic Intelligence System
 SkillIntel is a modern, responsive React dashboard designed to bridge the gap between academic learning and industry requirements. It provides users with visual skill gap analysis, personalized career roadmaps, and AI-driven learning recommendations.
 
 🚀 Features
@@ -14,7 +14,7 @@ Mock Authentication: Built-in simulation for Sign Up/Sign In flows and user prof
 
 Responsive Design: Optimized layout for mobile, tablet, and desktop views using Tailwind CSS.
 
-🛠 Tech Stack
+# 🛠 Tech Stack
 Frontend Framework: React.js
 
 Styling: Tailwind CSS
@@ -25,7 +25,7 @@ Icons: Lucide React
 
 State Management: React Hooks (useState)
 
-⚙️ Setup & Installation
+# ⚙️ Setup & Installation
 Follow these steps to get the project running on your local machine.
 
 Prerequisites
@@ -70,7 +70,7 @@ npm run dev
 yarn dev
 The application will typically run at http://localhost:5173 (Vite) or http://localhost:3000 (CRA).
 
-🔐 Environment Variables
+# 🔐 Environment Variables
 Currently, the application runs on Mock Data included within the component file, so environment variables are not strictly required for the UI to function.
 
 However, for future API integration, you can create a .env file in the root directory:
