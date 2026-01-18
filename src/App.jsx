@@ -232,6 +232,7 @@ import RecommendationsView from './views/RecommendationsView';
 import LearningPathDetailView from './views/LearningPathDetailView';
 import ProfileView from './views/ProfileView';
 import API from './api';
+import ExamView from './views/ExamView';
 
 const App = () => {
   // 1. PERSIST AUTHENTICATION (Fix for redirect issue)
@@ -428,6 +429,7 @@ const App = () => {
               <Route path="/path/health" element={<LearningPathDetailView domainKey="health" isDarkMode={isDarkMode} />} />
               <Route path="/path/agri" element={<LearningPathDetailView domainKey="agri" isDarkMode={isDarkMode} />} />
               <Route path="/path/urban" element={<LearningPathDetailView domainKey="urban" isDarkMode={isDarkMode} />} />
+              <Route path="/exam" element={<ExamView isDarkMode={isDarkMode}  user={user}/>} />
               
               {/* Fallback route */}
               <Route path="*" element={<Navigate to="/" replace />} />
